@@ -8,7 +8,7 @@ function Navbar({ setSidebar }) {
     <>
       <div className="nav_bar   z-50 w-full py-2 px-5 flex items-center justify-between">
         <div className="left_nav_items flex ">
-          <button 
+          <button
             onClick={() =>
               setSidebar((prev) => (prev === false ? true : false))
             }
@@ -17,7 +17,7 @@ function Navbar({ setSidebar }) {
             <FontAwesomeIcon icon={faBars} />
           </button>
           <div className="logo flex items-center justify-center -ml-8">
-            <img src="./src/assets/img/youtube.png" className="w-32" alt="" />
+            <img src="./public/img/youtube.png" className="w-32" alt="" />
           </div>
         </div>
         <div className="center_nav_items flex gap-5  ">
@@ -48,7 +48,7 @@ function Navbar({ setSidebar }) {
           </div>
           <div className="profile_img rounded-full  ">
             <img
-              src="./src/assets/img/profile.jpeg"
+              src="./public/img/profile.jpeg"
               className="w-9 rounded-full"
               alt=""
             />
