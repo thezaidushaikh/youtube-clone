@@ -17,7 +17,7 @@ function Navbar({ setSidebar }) {
             <FontAwesomeIcon icon={faBars} />
           </button>
           <div className="logo flex items-center justify-center -ml-8">
-            <img src="./public/img/youtube.png" className="w-32" alt="" />
+            <img src="./img/youtube.png" className="w-32" alt="" />
           </div>
         </div>
         <div className="center_nav_items flex gap-5  ">
@@ -48,7 +48,7 @@ function Navbar({ setSidebar }) {
           </div>
           <div className="profile_img rounded-full  ">
             <img
-              src="./public/img/profile.jpeg"
+              src="./img/profile.jpeg"
               className="w-9 rounded-full"
               alt=""
             />
